@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+h1 {
+    margin: 24px auto;
+    padding: 0;
+    text-align: center;
+}
+
+.cardContainer {
+    margin: 0 auto;
+    width: 600px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    user-select: none;
+}
+
+.cardFront, .cardBack {
+    padding: 24px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.cardFront {
+    background-color: salmon;
+}
+
+.cardBack {
+    background-color: lime;
+    display: none;
+}
+
+.progressBar, .nextButton {
+    margin: 24px auto;
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressBar {
+    background-color: black;
+    color: white;
+}
+
+.nextButton {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
