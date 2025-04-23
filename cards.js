@@ -242,7 +242,7 @@ let cards = [
     ['a command to list the attributes of a file', 'lsattr'],
     ['a command to change the attributes of a file', 'chattr'],
     ['the two access control tools you need to be familiar with for the exam', 'SELinux, AppArmor'],
-    ['the three states (settings) for SELinux polices', 'enforcing, permissive, disabled'],
+    ['the three states (settings) for SELinux policies', 'enforcing, permissive, disabled'],
     ['a command to set the state of an SELinux policy to enforcing or permissive', 'setenforce'],
     ['a command to display the state of an SELinux policy', 'getenforce'],
 
@@ -272,6 +272,19 @@ let cards = [
     ['a Docker/Podman command to list local images', 'images'],
     ['a Docker/Podman command to remove a container image', 'rmi'],
     ['a Docker command to create an run a container from an image (full command)', 'docker run --name <container_name> <image_name>'],
+
+    // 3.3
+    ['the git command to retrieve an entire repository from a location via URL', 'git clone [url]'],
+    ['the git command to send local branch commits to the remote repository branch', 'git push [alias] [branch]'],
+    ['the git command to fetch and merge any commits from the remote branch', 'git pull'],
+    ['the git command to commit your staged content as a new commit', 'git commit -m "[message]"'],
+    ['the git command to stage a file, i.e. add it your next commit', 'git add [file]'],
+    ['the git command to switch to another branch and check it out into your working directory', 'git checkout'],
+    ['the git command to list your branches', 'git branch'],
+    ['the git command to create a new branch', 'git branch [branch-name]'],
+    ['in git, what it\'s called when you mark a specific point in a repository\'s history as important', 'tagging'],
+    ['in git, the file where you tell git which files and/or directories to ignore', '.gitignore'],
+    ['the VCS (Version Control System) you need to know for the exam', 'git'],
 
     // MISC
     ['Which runlevel means system halt, i.e., the system can be safely powered off?', '0'],
