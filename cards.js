@@ -286,6 +286,18 @@ let cards = [
     ['in git, the file where you tell git which files and/or directories to ignore', '.gitignore'],
     ['the VCS (Version Control System) you need to know for the exam', 'git'],
 
+    // 3.4
+    ['acronym: YAML', 'YAML Ain\'t Markup Language'],
+    ['acronym: JSON', 'JavaScript Object Notation'],
+    ['an agentless automation tool that uses YAML playbooks to manage configuration, deployment, and orchestration over SSH', 'Ansible'],
+    ['a declarative, model-driven configuration management tool that uses a master-agent setup to enforce desired system states', 'Puppet'],
+    ['a configuration management tool that uses Ruby-based recipes and a client-server model to automate infrastructure tasks', 'Chef'],
+    ['an infrastructure-as-code tool that uses a declarative language (HCL) to provision and manage cloud and on-prem resources', 'Terraform'],
+    ['a fast, event-driven automation tool that supports both configuration management and remote execution using a master-minion architecture or agentless mode', 'SaltStack'],
+    ['acronym: CI/CD', 'Continuous Integration/Continuous Deployment'],
+    ['the git command to merge the specified branch into the current one', 'git merge [branch]'],
+    ['the git command to apply any commits of current branch ahead of specified one', 'git rebase [branch]'],
+
     // MISC
     ['Which runlevel means system halt, i.e., the system can be safely powered off?', '0'],
     ['Which runlevel means single-user mode?', '1'],
