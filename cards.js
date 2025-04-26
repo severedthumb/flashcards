@@ -298,6 +298,19 @@ let cards = [
     ['the git command to merge the specified branch into the current one', 'git merge [branch]'],
     ['the git command to apply any commits of current branch ahead of specified one', 'git rebase [branch]'],
 
+    // 3.5          NOTE: THERE IS NOT MUCH TO THIS OBJECTIVE, BUT LEARN MORE ABOUT KUBERNETES
+    ['in Kubernetes, a collection of one or more containers that share resources (such as storage)', 'pod'],
+    ['in Kubernetes, a container that runs alongside the main application container, within the same pod', 'sidecar'],
+    ['in Kubernetes, a type of sidecar that acts as a proxy for the main application container', 'ambassador container'],
+    ['acronym: NAT', 'Network Address Translation'],
+    ['a provisioning tool that runs when a new VM is booted for the first time', 'cloud-init'],
+    ['a platform for automating the deployment and management of containerized applications', 'Kubernetes'],
+
+    // 4.1          NOTE: THE OBJECTIVES IN SECTION 4 WILL NOT HAVE MANY FLASHCARDS, BUT THERE ARE STILL CONCEPTS TO REVIEW
+    ['acronym: IOPS', 'Input/output Operations Per Second'],
+    ['a data structure that holds metadata about a file or directory', 'inode (index node)'],
+    ['acronym: NVMe', 'Non-Volatile Memory Express'],
+
     // MISC
     ['Which runlevel means system halt, i.e., the system can be safely powered off?', '0'],
     ['Which runlevel means single-user mode?', '1'],
